@@ -1,0 +1,59 @@
+<form action="" method="post" class="modal fade" id="loginModal" tabindex="-1">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">
+					<span>&times;</span>
+				</button>
+				<h2 class="modal-title">
+					<img src="img/logo.png" class="center-block"/>
+				</h2>
+			</div>
+			<div class="modal-body">
+				<input type="text" class="form-control" name="username" id="username" placeholder="请输入用户名" />
+				<br />
+				<input type="password" class="form-control" name="pwd" id="pwd" placeholder="请输入密码" />
+			</div>
+			<div class="modal-footer">
+				<div class="form-group row text-center">
+					<a type="button" class="btn btn-primary" href="singup.html">注册</a>
+					<button type="button" class="btn btn-primary" onclick="submitInfo()">登录</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</form>
+<script type="text/javascript">
+	function submitInfo() {
+		var loginInfo = $('#loginModal').serialize();
+		alert(loginInfo);
+		$.ajax({
+			
+			type: "post",
+			url: "",
+
+		});
+	}
+</script>
+<style type="text/css">
+	.modal-content {
+		width: 85%;
+		margin: 0 auto;
+		margin-top: 150px;
+		padding: 30px 20px 10px 20px;
+	}
+	
+	.modal-title img {
+		width: 180px;
+	}
+	
+	.btn {
+		width: 200px;
+		vertical-align: top;
+		height: 40px;
+		font-size: 16px;
+		background-color: #353535;
+		border: none;
+	}
+</style>

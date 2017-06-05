@@ -1,0 +1,210 @@
+body {
+  padding: 0;
+  font-family: '微软雅黑', sans-serif;
+  background: #fff;
+}
+body a {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  font-weight: 400;
+}
+input[type="button"],
+input[type="submit"] {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 400;
+}
+p {
+  margin: 0;
+}
+/*组件CSS*/
+/*header*/
+.wrap {
+  width: 90%;
+  margin: 0 auto;
+}
+.header-top {
+  background-color: #000;
+  padding: 10px 0 10px 0;
+}
+.top-menu {
+  padding: 0 15px;
+  float: left;
+}
+.top-menu ul li {
+  display: inline-block;
+  margin-right: 19px;
+}
+.top-menu ul li a {
+  color: #dddddd;
+  font-size: 0.93em;
+  text-decoration: none;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.top-menu ul li a:hover {
+  color: #fff;
+}
+.num {
+  float: right;
+}
+.num p {
+  color: #dddddd;
+  font-size: 0.93em;
+  text-decoration: none;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.header-bottom {
+  padding: 2em 0 0.8em 0;
+  border-bottom: 1px solid #eee;
+  box-shadow: -3px -3px 3px 0 rgba(255, 255, 255, 0.19), 3px 0 3px 0 rgba(255, 255, 255, 0.19), 0 3px 3px 0 rgba(216, 210, 210, 0.23);
+}
+.navigation {
+  margin-top: 15px;
+}
+.navbar-nav {
+  float: left;
+  margin: 0;
+}
+.content.white {
+  background: #fff;
+  padding: 1em 0;
+}
+.content.black {
+  background: #000;
+}
+.content.black p {
+  color: #999;
+}
+.content.black p a {
+  color: #08c;
+}
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 0!important;
+  border: 1px solid transparent;
+}
+.navbar-default {
+  background-color: #fff;
+  border-color: #fff;
+}
+.navbar-brand {
+  float: left;
+  padding: 7px 0 0 0!important;
+  font-size: 18px;
+  line-height: 0px!important;
+  height: 0px!important;
+  text-transform: uppercase;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #282828;
+  font-size: 1.4em;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #84754e;
+  background-color: #fff;
+}
+.navbar-nav > li {
+  margin: 15px 35px 0 0;
+}
+.navbar-nav > li > a {
+  padding: 0px;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a.active {
+  color: #84754e;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #fff;
+  color: #000;
+}
+.navbar-default .navbar-brand span {
+  color: #ee5656!important;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #84754E;
+}
+.navbar-toggle {
+  position: relative;
+  float: right;
+  margin-right: 0;
+  padding: 9px 10px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  background-color: #F9F9F9!important;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.navbar-default .navbar-toggle {
+  border-color: #84754E;
+}
+.dropdown-menu {
+  min-width: 200px;
+  top: 175%;
+}
+.dropdown-menu li a {
+  padding: 5px 15px;
+  font-weight: 300;
+}
+.dropdown-menu .divider {
+  height: 0;
+  margin: 0;
+  overflow: none;
+  background: none;
+  border-bottom: 1px solid #E8E7EC;
+  padding: 3px 0;
+}
+.footer-bottom {
+  background-color: #353535;
+  padding: 2em 0 1em 0;
+  color: #979778;
+}
+.footericons {
+  float: right;
+}
+.footericons ul {
+  float: right;
+}
+.footericons ul li {
+  border: solid 1px #84754E;
+  background-color: #84754E;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 0;
+  margin: 7px;
+  height: 36px;
+  width: 36px;
+  transform: rotate(0deg);
+  transition-property: transform;
+  transition-duration: 1s;
+}
+.footericons ul li:hover,
+.footericons ul li:focus {
+  transform: rotate(360deg);
+  border: solid 1px #fff;
+}
+.footericons ul li a {
+  color: #fff;
+  font-size: 23px;
+}
