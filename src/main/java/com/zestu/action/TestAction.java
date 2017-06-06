@@ -6,7 +6,9 @@ import org.springframework.stereotype.Controller;
 
 import com.opensymphony.xwork2.ActionSupport;
 import com.zestu.entity.Test;
+import com.zestu.entity.UserInfo;
 import com.zestu.service.TestService;
+import com.zestu.service.UserService;
 
 import net.sf.json.JSONObject;
 
@@ -16,6 +18,8 @@ public class TestAction extends ActionSupport {
 	
 	@Autowired
 	private TestService testService;
+	@Autowired
+	private UserService userService;
 	private Integer id;
 	private String result;
 	public String getResult() {
@@ -40,5 +44,15 @@ public class TestAction extends ActionSupport {
 		result = object.toString();
 		System.out.println(result);
 		return "result";
+	}
+	public String userTest(){
+		UserInfo userInfo = new UserInfo();
+		userInfo.setUname("xxx");
+		userInfo.setUpassword("123456");
+		userInfo.setUemail("xxxxx");
+		userInfo.setUexperience(102);
+		userInfo.setUget(1);
+		userService.add(userInfo);
+		return "success";
 	}
 }
