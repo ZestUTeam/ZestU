@@ -15,19 +15,19 @@
 			ano = #{ano}
 		</if>
 		<if test="atitle!=null">
-			atitle = #{atitle}
+		and	atitle = #{atitle}
 		</if>
 		<if test="acontent!=null">
-			acontent = #{acontent}
+		and	acontent = #{acontent}
 		</if>
 		<if test="adate!=null">
-			adate = #{adate}
+		and	adate = #{adate}
 		</if>
 		<if test="auno!=null">
-			auno = #{auno}
+		and	auno = #{auno}
 		</if>
 		<if test="akno!=null">
-			akno = #{akno}
+		and	akno = #{akno}
 		</if>
 	</sql>
 	<sql id="Example_Where_Clause">

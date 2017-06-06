@@ -17,28 +17,28 @@
 	<!-- 自定义查询条件 -->
 	<sql id="findBySelective">
 		<if test="uno!=null">
-			where uno = #{uno}
+			 uno = #{uno}
 		</if>
 		<if test="uname!=null">
-			where uname = #{uname}
+			and uname = #{uname}
 		</if>
 		<if test="upassword!=null">
-			where upassword = #{upassword}
+			and upassword = #{upassword}
 		</if>
 		<if test="uemail!=null">
-			where uemail = #{uemail}
+			and uemail = #{uemail}
 		</if>
 		<if test="ubirthday!=null">
-			where ubirthday = #{ubirthday}
+			and ubirthday = #{ubirthday}
 		</if>
 		<if test="uphone!=null">
-			where uphone = #{uphone}
+			and uphone = #{uphone}
 		</if>
 		<if test="udescription!=null">
-			where udescription = #{udescription}
+			and udescription = #{udescription}
 		</if>
 		<if test="uget!=null">
-			where uget = #{uget}
+			and uget = #{uget}
 		</if>
 	</sql>
 	<sql id="Example_Where_Clause">
