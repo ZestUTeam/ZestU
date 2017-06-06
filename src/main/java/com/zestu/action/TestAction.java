@@ -47,12 +47,10 @@ public class TestAction extends ActionSupport {
 	}
 	public String userTest(){
 		UserInfo userInfo = new UserInfo();
-		userInfo.setUname("xxx");
-		userInfo.setUpassword("123456");
-		userInfo.setUemail("xxxxx");
-		userInfo.setUexperience(102);
-		userInfo.setUget(1);
-		userService.add(userInfo);
+		userInfo.setUno(2);
+		UserInfo temp =  userService.select(userInfo).get(0);
+		String str = JSONObject.fromObject(temp).toString();
+		System.out.println(str);
 		return "success";
 	}
 }
