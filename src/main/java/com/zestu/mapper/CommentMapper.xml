@@ -14,19 +14,19 @@
 			cno=#{cno}
 		</if>
 		<if test="cdate!=null">
-		and	cdate=#{cdate}
+			and cdate=#{cdate}
 		</if>
 		<if test="ccontent!=null">
-		and	ccontent=#{ccontent}
+			and ccontent=#{ccontent}
 		</if>
 		<if test="cuid!=null">
-		and	cuid=#{cuid}
+			and cuid=#{cuid}
 		</if>
 		<if test="cno!=null">
-		and	caid=#{caid}
+			and caid=#{caid}
 		</if>
 		<if test="cno!=null">
-		and	ccounts=#{ccounts}
+			and ccounts=#{ccounts}
 		</if>
 	</sql>
 	<sql id="Example_Where_Clause">
@@ -269,7 +269,7 @@
 		where
 		cno = #{cno,jdbcType=INTEGER}
 	</update>
-	<select id="selectBySelect" parameterMap="com.zestu.entity.Comment"
+	<select id="selectBySelect" parameterType="com.zestu.entity.Comment"
 		resultType="com.zestu.entity.Comment">
 		select * from comment
 		<where>

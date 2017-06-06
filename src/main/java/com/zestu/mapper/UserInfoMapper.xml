@@ -17,7 +17,7 @@
 	<!-- 自定义查询条件 -->
 	<sql id="findBySelective">
 		<if test="uno!=null">
-			 uno = #{uno}
+			uno = #{uno}
 		</if>
 		<if test="uname!=null">
 			and uname = #{uname}
