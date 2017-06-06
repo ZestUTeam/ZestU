@@ -41,7 +41,10 @@ ul {
 label {
 	margin: 0;
 }
+
+
 /*-----start-header----*/
+
 .wrap {
 	width: 88%;
 	margin: 0 auto;
@@ -97,10 +100,6 @@ label {
 .navbar-nav {
 	margin: 0 auto;
 	margin-left: 22%;
-}
-
-.caret {
-	margin-left: 3px;
 }
 
 .content.title h1 span.demo {
@@ -1900,6 +1899,7 @@ a.span_link1 {
 	color: #fff;
 	font-size: 23px;
 }
+
 .input-group-addon {}
 
 .featured {
@@ -1986,32 +1986,115 @@ a.span_link1 {
 	z-index: -1;
 }
 
+
 /*user*/
-.panel{
+
+.panel {
 	margin: 0 auto;
-	/*border: solid 1px #333;*/
-	margin-top: 2em;
 }
-.userInfo img{
+
+.panel-heading {
+	background-color: #84754E !important;
+	color: #fff !important;
+	letter-spacing: 3px;
+	font-size: 16px;
+}
+
+.userInfo img {
 	height: 100px;
 	width: 100px;
 	border-radius: 50%;
 }
-.userInfo h4{
+
+.userInfo h4 {
 	color: #fff;
 	margin: 10px 0 10px 0;
 	font-size: 22px;
 }
-.userIntro{
+
+.userIntro {
 	color: #fff;
 	font-size: 15px;
 }
-.panel-body{
-	border: solid 1px #333;
-	
+
+.panel-body {
+	/*border: solid 1px #333;*/
+	margin-top: 20px;
 }
-.userIcon{
-	padding:25px 0 20px 0;
+
+.userIcon {
+	padding: 25px 0 20px 0;
 	background-color: #84754E;
-	
+}
+
+.articlelist {
+	border:solid 1px #84754E;
+	border-radius:5px ;
+	padding: 10px 15px 10px 15px;
+	margin: 0.5em 1.2em 1em 1.5em;
+}
+.articlelist>a {
+	display: block;
+	position: relative;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+
+.articlelist>a img {
+	border-radius:5px ;
+	width: 100%;
+}
+
+.articlelist .panel-body {
+	padding: 0 25px 0 25px;
+}
+
+.articlelist .title {
+	margin-bottom: 15px;
+}
+
+.articlelist .title.title-pin h3 {
+	font-size: 34px;
+}
+
+.articlelist .title.title-pin h3 a {
+	color: #000;
+}
+
+.articlelist .title h3 {
+	font-size: 24px;
+}
+
+.articlelist .title h3 a {
+	color: #000;
+}
+
+.articlelist .title .posted-on {
+	display: inline-block;
+	margin-bottom: 15px;
+	position: relative;
+	font-weight: 700;
+	font-size: 15px;
+}
+
+.articlelist .blog-text {
+	margin-bottom: 20px;
+	position: relative;
+	padding: 30px;
+	background: #fff;
+}
+
+.articlelist .blog-text span {
+	display: inline-block;
+}
+.articlelist .blog-text h3 {
+	font-size: 20px;
+	margin-bottom: 10px;
+	line-height: 1.5;
+	font-weight: 600;
+}
+
+.articlelist .blog-text h3 a {
+	color: black;
 }
