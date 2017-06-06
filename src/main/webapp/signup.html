@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Home</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="css/ionicons.css" />
+
+		<script src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script src="js/responsiveslides.min.js"></script>
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="header-top">
+				<div class="wrap">
+					<div class="top-menu">
+						<ul>
+							<li>
+								<a href="index.html">首页</a>
+							</li>
+							<li>
+								<a href="about.html">关于我们</a>
+							</li>
+							<li>
+								<a href="contact.html">联系我们</a>
+							</li>
+						</ul>
+					</div>
+					<div class="top-menu pull-right">
+						<ul>
+							<li>
+								<a data-toggle="modal" data-target="#loginModal">登录</a>
+							</li>
+							<li>
+								<a href="about.html">注册</a>
+							</li>
+						</ul>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+
+			<!--登录模态框-->
+
+			<div id="login">
+
+			</div>
+
+			<!--logo和导航栏-->
+			<div class="header-bottom">
+				<div class="logo text-center">
+					<a href="homePage.html"><img src="img/logo.png" alt="" /></a>
+				</div>
+			</div>
+		</div>
+		<!-- content-section-starts-here -->
+		<div class="main-body">
+			<div class="wrap">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="panel panel-default text-center">
+						<div class="panel-body">
+							<form class="form-horizontal">
+								<div class="form-group">
+									<label class="col-sm-2 col-md-offset-2 control-label">用户名：</label>
+									<div class="input-group col-sm-4">
+										<span class="input-group-addon">
+								<span class="icon ion-person-add"></span>
+										</span>
+										<input type="text" name="uName" id="uName" class="form-control" placeholder="请输入用户名" />
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label class="col-sm-2 col-md-offset-2 control-label">密码：</label>
+									<div class="input-group col-sm-4">
+										<span class="input-group-addon">
+								<span class="icon ion-locked"></span>
+										</span>
+										<input type="password" id="uPassword" name="uPassword" class="form-control" placeholder="请输入密码">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-2 col-md-offset-2 control-label">确认密码：</label>
+									<div class="input-group col-sm-4">
+										<span class="input-group-addon">
+								<span class="icon ion-locked"></span>
+										</span>
+										<input type="password" id="uPassword" name="uPassword" class="form-control" placeholder="请重复密码" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-2 col-md-offset-2 control-label">邮箱：</label>
+									<div class="input-group col-sm-4">
+										<span class="input-group-addon">
+									<span class="icon ion-email"></span>
+										</span>
+										<input type="email" name="uEmail" id="uEmail" class="form-control" placeholder="请输入邮箱" />
+									</div>
+								</div>
+								<div class="form-group">
+									<button  class="btn btn-default col-md-4 col-md-offset-4">发送验证码到邮箱</button>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-2 col-md-offset-2 control-label">验证码：</label>
+									<div class="input-group col-sm-4">
+										<span class="input-group-addon">
+											<span class="icon ion-email"></span>
+										</span>
+										<input type="text" name="verifyCode" id="verifyCode" class="form-control" placeholder="请输入收到的验证码" />
+									</div>
+								</div>
+								<div class="btnGroup">
+									<button type="reset" class="btn btn-default col-md-3">
+										重置
+									</button>
+									<button type="submit" class="btn btn-default col-md-7 " style="margin-left: 30px;">
+										立即注册
+									</button>
+								</div>
+
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="footer-bottom text-center">
+			<div class="wrap">
+				<div class="col-md-12">
+					<p>Copyright &copy; 2017-第1组项目实训
+					</p>
+				</div>
+				<div class="footericons col-md-12">
+					<ul>
+						<li>
+							<a class="icon ion-social-twitter" href="#"></a>
+						</li>
+						<li>
+							<a class="icon ion-social-github" href="#"></a>
+						</li>
+						<li>
+							<a class="icon ion-social-facebook" href="#"></a>
+						</li>
+						<li>
+							<a class="icon ion-social-angular" href="#"></a>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+
+		</div>
+
+		<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+		<style type="text/css">
+			.btnGroup {
+				width: 300px;
+				margin: 0 auto;
+			}
+			
+			.btn {
+				border-radius: 5px;
+				border: solid 2px #84754E;
+				color: #84754E;
+				letter-spacing: 2px;
+				margin-bottom: 20px;
+			}
+			
+			.btn:hover,
+			.btn:focus {
+				border: solid 2px #84754E;
+				background-color: #84754E;
+				color: #fff;
+			}
+		</style>
+
+	</body>
+
+</html>
