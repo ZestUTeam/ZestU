@@ -13,8 +13,20 @@
 			<result name="result" type="json">
 				<param name="root">result</param>
 			</result>
-			<result name="success">/index.jsp</result>
+		</action>
+		<action name="useraction_*" method="{1}" class="userAction">
+			<!--邮箱验证  -->
+			<result name="SendSUCCESS" type="json">
+				<param name="root">result</param>
+			</result>
+			<!--注册action  -->
+			<result name="RegiterSUCCESS" type="json">
+				<param name="root">result</param>
+			</result>
+			<!--登录  -->
+			<result name="LoginSUCCESS" type="json">
+				<param name="root">result</param>
+			</result>
 		</action>
 	</package>
-	<include file="struts-yc.xml"></include>
 </struts>
