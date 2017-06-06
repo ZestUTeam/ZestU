@@ -535,11 +535,11 @@ span.glyphicon.glyphicon-thumbs-up,
 }
 
 a.span_link {
-	color: #888888;
+	color: #C5C5C5;
 }
 
 a.span_link:hover {
-	color: #84754E;
+	color: #84754e;
 }
 
 .article-text p {
@@ -2028,12 +2028,11 @@ a.span_link1 {
 }
 
 .articlelist {
-	border: solid 1px #84754E;
-	border-radius: 5px;
-	padding: 10px 20px 15px 10px;
+	border:solid 1px #84754E;
+	border-radius:5px ;
+	padding: 10px 15px 10px 15px;
 	margin: 0.5em 1.2em 1em 1.5em;
 }
-
 .articlelist>a {
 	display: block;
 	position: relative;
@@ -2043,7 +2042,7 @@ a.span_link1 {
 }
 
 .articlelist>a img {
-	border-radius: 5px;
+	border-radius:5px ;
 	width: 100%;
 }
 
@@ -2089,7 +2088,6 @@ a.span_link1 {
 .articlelist .blog-text span {
 	display: inline-block;
 }
-
 .articlelist .blog-text h3 {
 	font-size: 20px;
 	margin-bottom: 10px;
@@ -2100,47 +2098,16 @@ a.span_link1 {
 .articlelist .blog-text h3 a {
 	color: black;
 }
-
-.panel-body .media {
+.panel-body .media{
 	padding: 5px 10px 10px 20px;
 }
-
-.panel-body .media img {
-	height: 70px;
-	width: 70px;
-	border: solid 1px #333;
-	border-radius: 50%;
-}
-
-.panel-body .media .media-body {
-	padding-top: 10px;
-	padding-left: 5px;
-}
-
-.panel-body .media .username {
+.panel-body .media .username{
 	font-size: 18px;
-	font-weight: bold;
+	font-weight:bold ;
 	letter-spacing: 2px;
 }
-
 .panel-body .media .articleTime,
-.panel-body .media .atricleTags {
+.panel-body .media .atricleTags{
 	letter-spacing: 2px;
 	margin: 10px 10px 10px 0;
-}
-
-.aTitle {
-	padding: 0 0 20px 25px;
-}
-
-.aTitle img {
-	padding: 10px 0 10px 0;
-}
-
-hr {
-	width: 98%;
-	margin-top: 2px;
-	margin-bottom: 8px;
-	border: 0;
-	border-top: 1px solid #C0A16B;
 }
