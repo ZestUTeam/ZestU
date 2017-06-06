@@ -60,7 +60,16 @@
 		alert(loginInfo);
 		$.ajax({
 			type: "post",
-			url: "",
+			url: "useraction_login",
+			data:loginInfo;
+			dataType : 'json',
+			success : function(result) {
+				if(result=="true"){
+					alert("登录成功!");
+				}else{
+					alert("登录失败！");
+				}
+			}
 		});
 	}
 </script>
