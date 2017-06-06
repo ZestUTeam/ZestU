@@ -2098,3 +2098,16 @@ a.span_link1 {
 .articlelist .blog-text h3 a {
 	color: black;
 }
+.panel-body .media{
+	padding: 5px 10px 10px 20px;
+}
+.panel-body .media .username{
+	font-size: 18px;
+	font-weight:bold ;
+	letter-spacing: 2px;
+}
+.panel-body .media .articleTime,
+.panel-body .media .atricleTags{
+	letter-spacing: 2px;
+	margin: 10px 10px 10px 0;
+}
