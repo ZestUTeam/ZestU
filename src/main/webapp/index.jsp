@@ -20,7 +20,7 @@
 					<div class="top-menu">
 						<ul>
 							<li>
-								<a href="index.html">首页</a>
+								<a href="index.jsp">首页</a>
 							</li>
 							<li>
 								<a href="about.html">关于我们</a>
@@ -78,30 +78,21 @@
 										<a href="#">java</a>
 									</li>
 									<li>
-										<a href="#">JavaScript
+										<a href="#">Vue
 										</a>
 
 									</li>
 									<li>
-										<a href="#">Vue</a>
+										<a href="#">JavaScript</a>
 									</li>
 									<li>
-										<a href="#">python</a>
+										<a href="#">HTML5</a>
 									</li>
 									<li>
-										<a href="#">PHP</a>
-									</li>
-									<li>
-										<a href="#">node.js</a>
+										<a href="#">CSS3</a>
 									</li>
 									<li>
 										<a href="#">git</a>
-									</li>
-									<li>
-										<a href="#">HTML</a>
-									</li>
-									<li>
-										<a href="#">CSS</a>
 									</li>
 									<div class="clearfix"></div>
 								</ul>
